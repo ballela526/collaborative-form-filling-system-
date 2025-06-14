@@ -1,6 +1,6 @@
 # collaborative-form-filling-system
 
-# 1.Collaborative Form Filling App (Python + Redis + WebSockets)
+1.Collaborative Form Filling App (Python + Redis + WebSockets)
 
 A real-time collaborative form-filling web application built using:
 
@@ -37,7 +37,7 @@ Installation and Setup
 git clone https://github.com/your-username/collaborative-form-filling.git
 cd collaborative-form-filling
 
-#2. Set Up Environment Variables
+2. Set Up Environment Variables
 Create a .env file in the root directory with the following content:
 
 env
@@ -47,19 +47,19 @@ REDIS_HOST=localhost
 REDIS_PORT=6379
 Make sure Redis is running on your machine at port 6379.
 
-#3. Install Dependencies
+3. Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
 
-#4. Start the Backend Server
+4. Start the Backend Server
 bash
 Copy
 Edit
 python -m app.main
 
-# 5. Open the Frontend
+5. Open the Frontend
 Open index.html in your browser. You can open it in multiple tabs or separate browsers to simulate multiple users.
 
 Sample Form JSON
